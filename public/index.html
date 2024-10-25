@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidyaVardhaka College of Engineering</title>
+    <style>
+        /* General Styles */
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            /* Slight transparency */
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: center;
+        }
+        /* Logo Styles */
+        
+        .logo img {
+            width: 100px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        /* Main Content */
+        
+        .main-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        /* Left Image */
+        
+        .left-image img {
+            border-radius: 15px;
+            max-width: 300px;
+            height: auto;
+        }
+        /* Text Content */
+        
+        .text-content {
+            flex: 1;
+            margin-left: 20px;
+        }
+        
+        .text-content h1 {
+            font-size: 28px;
+            color: #2a2a2a;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .text-content p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+        /* Button Styles */
+        
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 20px 30px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+        
+        .large-btn {
+            width: 250px;
+            height: 100px;
+        }
+        /* Responsive Design */
+        
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            .left-image img {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+            .text-content {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- College Logo -->
+        <div class="logo">
+            <img src="logo.jpg" alt="College Logo">
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="main-content">
+            <!-- Left Image -->
+            <div class="left-image">
+                <img src="college_image.jpg" alt="College Building">
+            </div>
+
+            <!-- Text Content -->
+            <div class="text-content">
+                <h1>Vidyavardhaka College of Engineering</h1>
+                <p>
+                    Established in 1997, VVCE is an autonomous institute affiliated to Visvesvaraya Technological University (VTU), Belagavi, approved by AICTE & UGC, New Delhi, and recognized by Govt. of Karnataka. Six UG programs are accredited by the National Board of
+                    Accreditation, New Delhi. VVCE is also accredited by NAAC with “A” grade. VVCE offers seven UG programs, three PG programs, and nine Research Centres for pursuing PhD programs, with a total student population of over 3900. The college
+                    has excellent infrastructure coupled with qualified and passionate faculty team to provide a perfect learning ambience. The college is under the able leadership of Dr. B. Sadashive Gowda, PhD (IISc) as Principal, who has rich experience
+                    in industry and education fields both in India and abroad.
+                </p>
+                <button onclick="location.href='second.html'" class="btn large-btn">Get Started</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

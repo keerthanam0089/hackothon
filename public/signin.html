@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidyaVardhaka College Login</title>
+    <style>
+        /* General Styles */
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.9);
+            max-width: 800px;
+            margin: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        /* Logo */
+        
+        .logo img {
+            width: 100px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        /* Title */
+        
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            color: #2a2a2a;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        /* Login Box */
+        
+        .login-box {
+            background-color: #0056b3;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            margin: auto;
+        }
+        /* Input Group */
+        
+        .input-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .input-group label {
+            color: white;
+            font-size: 18px;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        /* Button Styles */
+        
+        .btn {
+            display: block;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: #003f7f;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- College Logo -->
+        <div class="logo">
+            <img src="logo.jpg" alt="College Logo">
+        </div>
+
+        <!-- College Title -->
+        <h1>VidyaVardhaka College of Engineering</h1>
+
+        <!-- Login Form -->
+        <div class="login-box">
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="email">College mail id</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your college mail id" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn">Sign In</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

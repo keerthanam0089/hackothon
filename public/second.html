@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VidyaVardhaka College of Engineering</title>
+    <style>
+        /* General Styles */
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.9);
+            /* Slight transparency */
+            max-width: 1000px;
+            margin: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        /* Logo */
+        
+        .logo img {
+            width: 100px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        /* Title */
+        
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            color: #2a2a2a;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            position: center;
+        }
+        /* Buttons Section */
+        
+        .buttons-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 20px 30px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+        
+        .large-btn {
+            width: 250px;
+            height: 100px;
+        }
+        
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        /* Responsive Design */
+        
+        @media (max-width: 768px) {
+            .buttons-section {
+                flex-direction: column;
+            }
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- College Logo -->
+        <div class="logo">
+            <img src="logo.jpg" alt="College Logo">
+        </div>
+
+        <!-- College Title -->
+        <h1>Vidyavardhaka College of Engineering</h1>
+
+        <!-- Main Content: Buttons Section -->
+        <div class="buttons-section">
+            <button class="btn large-btn">Get to know more</button>
+            <button onclick="location.href='signin.html'" class="btn large-btn">Mental Health</button>
+            <button onclick="location.href='signin.html'" class="btn large-btn">Career Guidance</button>
+        </div>
+    </div>
+
+    <!-- Botpress Integration Scripts -->
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2024/10/25/10/20241025104720-7XUVHKK1.js"></script>
+</body>
+
+</html>
